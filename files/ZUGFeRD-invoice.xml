@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<rsm:CrossIndustryDocument xmlns:rsm="urn:ferd:CrossIndustryDocument:invoice:1p0" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:12" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15">
+	<rsm:SpecifiedExchangedDocumentContext>
+		<ram:TestIndicator>
+			<udt:Indicator>true</udt:Indicator>
+		</ram:TestIndicator>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID>urn:ferd:CrossIndustryDocument:invoice:1p0:basic</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:SpecifiedExchangedDocumentContext>
+	<rsm:HeaderExchangedDocument>
+		<ram:ID>Order ID</ram:ID>
+		<ram:Name>RECHNUNGS</ram:Name>
+		<ram:TypeCode>380</ram:TypeCode>
+		<ram:IssueDateTime>
+			<udt:DateTimeString format="102">19990101</udt:DateTimeString>
+		</ram:IssueDateTime>
+		<ram:IncludedNote>
+			<ram:Content />
+		</ram:IncludedNote>
+	</rsm:HeaderExchangedDocument>
+	<rsm:SpecifiedSupplyChainTradeTransaction>
+		<ram:ApplicableSupplyChainTradeAgreement>
+			<ram:SellerTradeParty>
+				<ram:Name>Seller Name</ram:Name>
+				<ram:PostalTradeAddress>
+				<ram:PostcodeCode>Seller PostCode</ram:PostcodeCode>
+				<ram:LineOne>Seller Line One</ram:LineOne>
+				<ram:CityName>Seller City</ram:CityName>
+				<ram:CountryID>DE</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:SpecifiedTaxRegistration>
+				<ram:ID schemeID="VA">Seller TaxID</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Buyer Name</ram:Name>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>Buyer PostCode</ram:PostcodeCode>
+					<ram:LineOne>Buyer Line One</ram:LineOne>
+					<ram:CityName>Buyer City</ram:CityName>
+					<ram:CountryID>DE</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">Buyer TaxID</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:BuyerTradeParty>
+		</ram:ApplicableSupplyChainTradeAgreement>
+		<ram:ApplicableSupplyChainTradeDelivery>
+			<ram:ActualDeliverySupplyChainEvent>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="102">19990101</udt:DateTimeString>
+				</ram:OccurrenceDateTime>
+			</ram:ActualDeliverySupplyChainEvent>
+		</ram:ApplicableSupplyChainTradeDelivery>
+		<ram:ApplicableSupplyChainTradeSettlement>
+			<ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount currencyID="EUR">0.99</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount currencyID="EUR">99.00</ram:BasisAmount>
+				<ram:ApplicablePercent>7.00</ram:ApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradeSettlementMonetarySummation>
+				<ram:LineTotalAmount currencyID="EUR">99.00</ram:LineTotalAmount>
+				<ram:ChargeTotalAmount currencyID="EUR">0.00</ram:ChargeTotalAmount>
+				<ram:AllowanceTotalAmount currencyID="EUR">0.00</ram:AllowanceTotalAmount>
+				<ram:TaxBasisTotalAmount currencyID="EUR">99.00</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount currencyID="EUR">0.99</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount currencyID="EUR">99.99</ram:GrandTotalAmount>
+			</ram:SpecifiedTradeSettlementMonetarySummation>
+		</ram:ApplicableSupplyChainTradeSettlement>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument />
+			<ram:SpecifiedSupplyChainTradeDelivery>
+				<ram:BilledQuantity unitCode="C62">1.0000</ram:BilledQuantity>
+			</ram:SpecifiedSupplyChainTradeDelivery>
+			<ram:SpecifiedSupplyChainTradeSettlement />
+			<ram:SpecifiedTradeProduct>
+				<ram:Name>Product Name</ram:Name>
+			</ram:SpecifiedTradeProduct>
+		</ram:IncludedSupplyChainTradeLineItem>
+	</rsm:SpecifiedSupplyChainTradeTransaction>
+</rsm:CrossIndustryDocument>

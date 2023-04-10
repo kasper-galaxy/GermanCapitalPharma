@@ -1,0 +1,14 @@
+
+node_modules
+node_modules/
+client/node_modules
+client/node_modules/
+admin/node_modules
+admin/node_modules/
+client/build
+client/build/
+admin/build
+admin/build/
+lib
+.env
+sendgrid.env

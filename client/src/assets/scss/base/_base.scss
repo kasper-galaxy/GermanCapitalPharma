@@ -1,0 +1,25 @@
+html {
+  // font-family: 'Jost', 'Poppins', sans-serif;
+  font-family: 'PF Din Text Universal Light';
+}
+
+body {
+  overflow-y: scroll !important;
+  padding-right: 0 !important;
+}
+
+#root {
+  overflow: hidden;
+}
+
+.main {
+  min-height: 80vh;
+  margin-bottom: 56px;
+}
+
+@font-face {
+  font-family: 'PF Din Text Universal Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PF Din Text Universal Light'), url('../../fonts/PF\ Din\ Text\ Universal\ Light.woff') format('woff');
+}
